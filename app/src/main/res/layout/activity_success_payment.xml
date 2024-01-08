@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".murid.status.SuccessPaymentActivity">
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:textAlignment="center"
+    android:text="Pembayaran Anda Berhasil dan Kelas Akan Ditambahkan Silahkan Kembali Ke Halaman Awal"/>
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="150dp"
+    android:src="@drawable/ilus_cash"
+    android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Kembali Ke Halaman Awal"
+        android:textStyle="bold"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

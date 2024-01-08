@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Musiqlo</string>
+    <string name="select_level">Select Level</string>
+
+    <string-array name="levels">
+        <item>Guru</item>
+        <item>Murid</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firebase_storage_bucket">bucket_profil</string>
+    <string name="prompt_kabupaten">Pilih Kabupaten</string>
+
+    <!-- String untuk prompt Kecamatan -->
+    <string name="prompt_kecamatan">Pilih Kecamatan</string>
+
+    <!-- String untuk prompt Desa -->
+    <string name="prompt_desa">Pilih Desa</string>
+    <string name="deskripsi_online">Ruang pembelajaran online ini berisi materi teori sebelum masuk pada materi offline (praktek) pada program lanjutan</string>
+    <string name="deskripsi_offline">Ruang Pembelajaran Offline berisi kelas pertemuan, pada halaman ini anda bisa menjadwalkan dan membayar guru pilihan anda</string>
+    <string name="deskripsi_tambah_kelas">Tambahkan Kelas Anda, sesuai dengan keahlian yang anda punyai. Buatlah kelas yang menarik, edukatif, dan bermanfaat</string>
+    <string name="deskripsi_upload">Silahkan mengupload materi anda untuk murid kesayangan anda, buatlah materi yang informatif, mudah dipahami dan ringkas dalam penyampaian</string>
+    <string name="title_activity_histori_pemasukan">HistoriPemasukanActivity</string>
+    <string name="syarat">Syarat dan Ketentuan Aplikasi Musiqlo ini merupakan perjanjian antara pengguna (“Anda” atau “Pengguna”) dan Pihak Musiqlo (“Kami” atau “Musiqlo).Syarat dan Ketentuan ini mengatur Anda saat mengakses dan menggunakan aplikasi, situs web (musiqlo.online dan situs web lain yang Kami kelola), fitur, teknologi, konten, dan produk yang Kami sediakan (selanjutnya, secara bersama-sama disebut sebagai “Aplikasi” atau “Aplikasi Musiqlo”), serta pemesanan, pembayaran atau penggunaan layanan yang tersedia pada Aplikasi (“Layanan”).
+    Secara umum, Anda harus berusia minimal 18 (delapan belas) tahun atau sudah menikah dan tidak berada di bawah perwalian atau pengampuan agar Anda secara hukum memiliki kapasitas dan berhak untuk mengikatkan diri pada Syarat dan Ketentuan ini. Anda menyatakan dan menjamin bahwa Anda telah berusia minimal 18 (delapan belas) tahun atau sudah menikah dan tidak berada di bawah perwalian atau pengampuan dan Anda secara hukum memiliki kapasitas dan berhak untuk mengikatkan diri pada Syarat dan Ketentuan ini. Jika Anda tidak memenuhi ketentuan tersebut, maka tindakan Anda dalam mendaftar, mengakses, menggunakan, atau melakukan aktivitas lain dalam Aplikasi dan/atau Layanan yang Kami sediakan harus dalam sepengetahuan, pengawasan dan persetujuan yang sah dari orang tua, wali atau pengampu Anda. Orang tua, wali atau pengampu yang memberikan persetujuan bagi Anda yang berusia di bawah 18 (delapan belas) tahun bertanggung jawab secara penuh atas seluruh tindakan dan aktivitas Anda dalam penggunaan dan akses terhadap Aplikasi dan/atau Layanan. Anda secara tegas mengesampingkan setiap hak berdasarkan hukum untuk membatalkan atau mencabut setiap dan seluruh persetujuan yang Anda berikan berdasarkan Syarat dan Ketentuan ini pada waktu Anda dianggap telah dewasa secara hukum.
+    Dengan menyetujui Syarat dan Ketentuan Aplikasi Musiqlo ini, Anda juga menyetujui Syarat dan Ketentuan tambahan, termasuk Syarat dan Ketentuan atas setiap Layanan, dan perubahannya yang merupakan bagian yang tidak terpisahkan dari Syarat dan Ketentuan ini (selanjutnya, Syarat dan Ketentuan Aplikasi Musiqlo, Syarat dan Ketentuan tambahan, dan perubahannya secara bersama-sama disebut sebagai “Syarat dan Ketentuan”). Meskipun merupakan satu kesatuan, Syarat dan Ketentuan tambahan akan berlaku dalam hal terdapat perbedaan dengan Syarat dan Ketentuan.
+    Dengan mendaftar dan/atau menggunakan Aplikasi ini, maka Anda dan/atau orang tua, wali atau pengampu Anda (jika Anda berusia di bawah 18 tahun) dianggap telah membaca, mengerti, memahami, dan menyetujui semua isi dalam Syarat dan Ketentuan ini.
+    Jika Anda tidak menyetujui salah satu, sebagian, atau seluruh Syarat dan Ketentuan ini, maka mohon untuk segera menghentikan akses dan penggunaan Anda terhadap Aplikasi Kami.
+    </string>
+    <string name="syarat2">
+        Akses dan penggunaan Aplikasi tunduk pada Syarat dan Ketentuan ini.
+Anda mempunyai kebebasan penuh untuk memilih menggunakan Aplikasi atau Aplikasi lain yang serupa, menggunakan Layanan yang tersedia pada Aplikasi atau tidak, atau berhenti menggunakan Aplikasi.
+Pada Layanan tertentu, Kami hanya memfasilitasi Anda untuk menemukan dan/atau menggunakan berbagai Layanan yang Anda perlukan, dimana seluruh Layanan tersebut disediakan secara langsung oleh pihak ketiga independen yang setuju menjadi penyedia layanan Kami dengan skema kemitraan atau skema lainnya yang serupa (“Penyedia Layanan”).
+Jika Anda adalah seorang pegawai negeri atau penyelenggara negara, dalam menggunakan Aplikasi Kami, maka Anda setuju untuk mematuhi ketentuan peraturan perundang-undangan, khususnya yang mengatur tentang penerimaan gratifikasi serta ketentuan lain yang berlaku di lingkungan lembaga Anda.
+Jika Anda adalah seorang pendidik atau tenaga kependidikan, dalam menggunakan Aplikasi Kami, maka Anda setuju untuk mematuhi ketentuan peraturan perundang-undangan terkait pengelolaan dan penyelenggaraan pendidikan, terutama terkait kegiatan sosialisasi, pemasaran, distribusi, maupun penjualan program atau produk dari Aplikasi Kami kepada peserta didik di satuan pendidikan formal di mana Anda mengajar atau bekerja dengan suatu imbalan dalam bentuk apa pun.
+Kami hanya menyediakan Aplikasi untuk penggunaan domestik dan pribadi Anda. Anda setuju untuk tidak menggunakan Aplikasi Kami untuk tujuan komersial atau bisnis apa pun.
+    </string>
+    <string name="syarat3">
+        Konten, Informasi dan Promosi
+Kami atau pihak lain yang bekerja sama dengan Kami dapat menyediakan Konten Pihak Ketiga yang dapat Anda temukan pada Aplikasi. Dalam hal Konten Pihak Ketiga disediakan oleh pihak lain yang bekerja sama dengan Kami (“Penyedia Konten Pihak Ketiga”), maka Kami tidak bertanggung jawab atas bagian apapun dari isi Konten Pihak Ketiga. Akses atau penggunaan Anda terhadap Konten Pihak Ketiga tersebut merupakan bentuk persetujuan Anda untuk tunduk pada Syarat dan Ketentuan yang ditetapkan oleh Kami atau Penyedia Konten Pihak Ketiga, termasuk terhadap Kebijakan Privasi Kami atau Penyedia Konten Pihak Ketiga.
+Konten Pihak Ketiga adalah setiap dan/atau seluruh informasi dan penawaran barang dan/atau jasa, yang dibuat dan/atau disusun dan/atau dikembangkan dan/atau dikelola oleh Penyedia Konten Pihak Ketiga termasuk namun tidak terbatas pada teks atau tulisan, gambar, quotes atau kutipan, foto, ilustrasi, animasi, video, rekaman suara atau musik, judul, deskripsi dan/atau setiap data dalam bentuk apapun yang disediakan oleh Penyedia Konten Pihak Ketiga untuk ditampilkan pada Aplikasi Musiqlo, termasuk setiap tautan yang menghubungkan kepadanya. Untuk menghindari keraguan, Konten Pihak Ketiga mencakup pula setiap dan/atau seluruh penawaran barang dan/atau jasa, informasi, data, berita aktual, tulisan, gambar, kutipan, foto, ilustrasi, animasi, video, rekaman suara, yang diperoleh Penyedia Konten Pihak Ketiga dari pihak ketiga, dimana Penyedia Konten Pihak Ketiga telah memiliki kewenangan untuk menggunakan dan mendistribusikan konten tersebut.
+Kami atau pihak lain yang bekerja sama dengan Kami dapat memberikan penawaran atau promosi (“Penawaran”) yang dapat ditukar dengan barang, Layanan atau manfaat lain terkait dengan penggunaan Aplikasi. Dalam hal Penawaran disediakan oleh pihak lain yang bekerja sama dengan Kami (“Penyedia Penawaran”), Kami tidak bertanggung jawab atas bagian apapun dari isi Penawaran tersebut. Akses atau penggunaan Anda terhadap Penawaran merupakan bentuk persetujuan Anda untuk tunduk pada Syarat dan Ketentuan yang ditetapkan oleh Kami atau Penyedia Penawaran, termasuk terhadap Kebijakan Privasi Kami atau Penyedia Penawaran.
+Seluruh informasi Penawaran yang terdapat pada Aplikasi hanya dimaksudkan untuk memberikan Anda pengalaman terbaik ketika menggunakan Aplikasi atau Layanan. Anda dilarang menyalahgunakan Penawaran yang Anda terima selama penggunaan Aplikasi atau Layanan.
+Anda setuju untuk menggunakan Penawaran tersebut sesuai dengan syarat, ketentuan, dan maksud dari pemberian Penawaran dan tidak akan menyalahgunakan, menggandakan, menguangkan, mengalihkan, menggunakan untuk kepentingan komersial atau mengambil keuntungan dengan tidak wajar dari promosi tersebut dengan bentuk atau cara apapun.
+Penawaran dapat kedaluwarsa jika tidak digunakan dalam jangka waktu yang ditetapkan dalam syarat dan ketentuan yang berlaku atas Penawaran tersebut. Penawaran yang ditawarkan melalui Aplikasi tidak dapat ditukarkan dengan uang tunai, kecuali jika dinyatakan dalam ketentuan yang disertakan dengan Penawaran tersebut, atau sebagaimana diharuskan oleh ketentuan peraturan perundang-undangan yang berlaku. Penawaran yang ditawarkan oleh Penyedia Penawaran tunduk pada kebijakan refund Penyedia Penawaran tersebut.
+    </string>
+    <string name="pernyataan">
+        Saya dan/atau orang tua, guru (sebagaimana relevan) telah membaca dan mengerti seluruh Syarat dan Ketentuan ini dan konsekuensinya dan dengan ini menerima setiap hak, kewajiban, dan ketentuan yang diatur di dalamnya.
+    </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

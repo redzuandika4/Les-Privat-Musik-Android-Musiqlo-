@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "176755297682",
+    "firebase_url": "https://musiqloku-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "musiqloku",
+    "storage_bucket": "musiqloku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176755297682:android:f845fc04692a601500454b",
+        "android_client_info": {
+          "package_name": "com.redzuandika.musiqlo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRjnvCMOp5IeI-jhFd9ss3LYnpoQKdeNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".guru.BuatKelasActivity">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Lengkapi Keterangan Kelas Yang Dibutuhkan"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ilus_profil_guru"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*Dimohon sebelum membuat kelas, guru menyiapkan 1 video higlihts berupa perkenalan dan trial kelas / kelas percobaan"
+        android:textSize="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/red"
+        android:textAlignment="center"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+<!--        Edit Text-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Kelas"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/nama_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/rounded_edit"
+            android:hint="Tuliskan Nama Kelas (Ex. Kelas Gitar Mr.Andrian)"
+            android:textSize="14sp"
+            android:padding="10dp"/>
+<!--        Edit Text-->
+        <!--        Edit Text-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Kelas"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/harga_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edit"
+            android:inputType="number"
+            android:hint="Tuliskan Harga Kelas Anda (Ex.60000)"
+            android:textSize="14sp"
+            android:padding="10dp"/>
+
+        <!--        Edit Text-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Kelas"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/deskripsi_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="4"
+            android:inputType="textMultiLine"
+            android:hint="Tuliskan Deksripsi Secara Singkat dan Berisi Detail Keterangan Kelas Anda"
+            android:textSize="14sp"
+            android:background="@drawable/rounded_edit"
+            android:padding="10dp"/>
+        <!--        Edit Text-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gambar Kelas"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pilihGambarKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gambar Kelas"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button_orange"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/ivKelas"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pilihVideoTrial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pilih Video Trial"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button_orange"
+            android:textColor="@color/white"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*cek kembali data yang anda masukkan, pastikan data sesuai dengan yang anda harapkan"
+            android:layout_marginBottom="5dp"
+            android:textSize="10sp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tambah_kelas"
+            android:layout_marginTop="10dp"
+            android:text="Tambahkan Kelas"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

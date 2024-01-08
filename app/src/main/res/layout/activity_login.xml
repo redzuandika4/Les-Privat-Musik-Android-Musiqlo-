@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo_text"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Page"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Login Terlebih Dahulu, Untuk Masuk Kedalam Aplikasi"
+            android:textSize="10sp"
+            android:textAlignment="center"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            >
+
+
+
+            <!--Template Edit Text-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="10sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+
+                />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rounded_edit"
+                android:drawableLeft="@drawable/ic_email"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:hint="(ex. redzuan@email.com)"
+                android:id="@+id/email"
+                />
+            <!--Template Edit Text-->
+
+
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="10sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/rounded_edit"
+                android:drawableLeft="@drawable/ic_lock"
+                android:hint="**********"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lupaSandi"
+                android:text="Lupa Kata Sandi ?"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_button"
+                android:text="Login"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:id="@+id/login_button"
+                />
+            <!--Template Edit Text-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belum Punya Akun?"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:layout_marginTop="20dp"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klik Disini"
+                android:textAlignment="center"
+                android:id="@+id/pindah_login"
+                android:textStyle="bold"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="invisible" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
